@@ -28,6 +28,11 @@
       "static/css/app/books/[id]/page.css",
       "static/chunks/app/books/[id]/page.js"
     ],
+    "/books/[id]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/books/[id]/layout.js"
+    ],
     "/authors/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -49,11 +54,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/authors/[id]/layout.js"
-    ],
-    "/books/[id]/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/books/[id]/layout.js"
     ]
   }
 }
