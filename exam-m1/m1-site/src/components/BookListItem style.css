@@ -1,0 +1,28 @@
+.book-list-item {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.book-list-item a {
+  text-decoration: none;
+  color: #0070f3;
+  transition: color 0.3s ease;
+}
+
+.book-list-item a:hover {
+  color: #02366d;
+}
+
+.book-list-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-list-item:hover {
+  background-color: #f1f1f1;
+}
